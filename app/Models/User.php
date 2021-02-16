@@ -51,4 +51,10 @@ class User extends Authenticatable
     {
         return $this->hasMany('App\Models\Comment');
     }
+
+    public function selectUser()
+    {
+        $response = $this->select('name')->first();
+        return $response;
+    }
 }
