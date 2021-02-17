@@ -57,4 +57,9 @@ class User extends Authenticatable
         $response = $this->select('name')->first();
         return $response;
     }
+
+    public function getFullName()
+    {
+        return trim("$this->first_name $this->surname");
+    }
 }

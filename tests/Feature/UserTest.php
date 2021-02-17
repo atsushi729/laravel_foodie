@@ -20,4 +20,29 @@ class UserTest extends TestCase
         $response = $user->selectUser();
         $this->assertSame('畠山製作所', $response['name']);
     }
+
+    public function testReturnsFullName()
+    {
+        $user = new User;
+
+        $user->first_name = "Teresa";
+        $user->surname = "Green";
+
+        $this->assertEquals('Teresa Green', $user->getFullName());
+    }
+    public function testFullNameIsEmptyByDefault()
+    {
+        $user = new User;
+        $this->assertEquals('', $user->getFullName());
+    }
+
+    /**
+     * @test
+     */
+    public function user_has_first_name()
+    {
+        $user = new User;
+        $user->first_name = "Teresa";
+        $this->assertEquals('Teresa', $user->first_name);
+    }
 }
