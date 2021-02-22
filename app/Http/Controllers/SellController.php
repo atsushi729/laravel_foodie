@@ -51,7 +51,7 @@ class SellController extends Controller
          $item->save();
  
          return redirect()->back()
-             ->with('status', '商品を出品しました。');
+             ->with('status', '商品を出荷しました。');
      }
 
      /**
