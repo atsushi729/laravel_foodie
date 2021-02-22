@@ -8,7 +8,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
-## アプリケーションの概要
+## "foodie"とは
 "foodie"はフードロスを解決するための、C2Cオンラインマーケットプレイスです。
 
 賞味期限が近くなってしまった観光地のお土産、コロナ禍で売れ残った生鮮食品など、定価よりも低い価格で販売できるプラットフォームを作成することにより、欲しい人に届ける、生産者を助けたいという思いで、このアプリケーションを作成しました。
@@ -56,18 +56,6 @@
 
 "foodie" is C2C online marketplace with laravel.　The purpose of this application is to stop food wasting in paticular places and these food shoud be delivered to needy people. In this application, you can sell your vegetables, fish, meat and sweets. Of course, you can buy these one with low price. 
 
-
-web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
-
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
 ## Learning Laravel
 
