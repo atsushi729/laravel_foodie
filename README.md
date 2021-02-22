@@ -1,4 +1,4 @@
-<p align="center"><img src="file:///Users/hatakeyamaatsushi/Downloads/foodie:readme.png" width="400"></p>
+<p align="center"><img width="499" alt="foodie:readme" src="https://user-images.githubusercontent.com/75428655/108668690-f122f200-751e-11eb-8c3f-01fce18dc0fb.png"></p>
 
 
 <p align="center">
