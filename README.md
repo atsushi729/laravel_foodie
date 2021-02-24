@@ -56,11 +56,17 @@
 "foodie" is C2C online marketplace with laravel.　The purpose of this application is to stop food wasting in paticular places and these food shoud be delivered to needy people. In this application, you can sell your vegetables, fish, meat and sweets. Of course, you can buy these one with low price. 
 
 
-## Learning Laravel
+## Usage
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+<p>this is a foodie's top page. Even if you did't login, you can check what items you can buy or sell. </p>
+<p>when you buy or sell something, you need to login this site.</p>
+<p>i set up test user account, so you can test selling procedure  and buying procedure as a test user</p>
+ 
+<img width="915" alt="スクリーンショット 2021-02-24 14 23 44" src="https://user-images.githubusercontent.com/75428655/108952287-915a5180-76ac-11eb-8102-18bab047a86b.png">
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+
+
+
 
 ## Laravel Sponsors
 
