@@ -58,12 +58,12 @@
 
 ## Demo
 
-<p>This is a foodie's top page. Even if you did't login, you can check what items you can buy or sell. When you what to buy or sell something you produce, you need to login this site. However, you can register easily</p>
+<p>This is a foodie's top page. Even if you did't login, you can check what items you can buy or sell. When you what to buy or sell something you produce, you need to login this site. However, you can register easily.</p>
 <p>I set up test user account, so you can test selling procedure and buying procedure as a test user.</p>
  
 <img width="915" alt="スクリーンショット 2021-02-24 14 23 44" src="https://user-images.githubusercontent.com/75428655/108952287-915a5180-76ac-11eb-8102-18bab047a86b.png">
 
-<p>Once you click items, you will move to item detail page. In this page, you can leave comments to convey you gratitude for item producer. Moreover, if you click the link item producer, you can move to </p>
+<p>Once you click items, you will move to item detail page. In this page, you can leave comments to convey you gratitude for item producer. Moreover, if you click the link item producer, you can move to store page.</p>
 
 <img width="760" alt="スクリーンショット 2021-02-24 11 30 33" src="https://user-images.githubusercontent.com/75428655/108952800-818f3d00-76ad-11eb-9d00-8079f152c6a4.png">
 
