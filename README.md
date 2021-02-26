@@ -67,7 +67,19 @@
 
 <img width="760" alt="スクリーンショット 2021-02-24 11 30 33" src="https://user-images.githubusercontent.com/75428655/108952800-818f3d00-76ad-11eb-9d00-8079f152c6a4.png">
 
+## for better experience 
 
+I will fix function and design in order to use easily and simply. if you have try this application and you have any comments, please get in touch me! i will fix it as soon as possible. thanks!
+
+- [ ] add like button and rank items according to the number of likes.
+- [ ] fix personal page. 
+- [ ] set up comment page
+- [ ] make save button to save what you interested in. 
+- [ ] allow to post multiple item images. 
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
 
 ## Author
 
