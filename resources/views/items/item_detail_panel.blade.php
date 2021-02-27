@@ -2,7 +2,7 @@
 
 <div class="row">
     <div class="col-4 offset-1">
-        <img class="card-img-top" src="/storage/item-images/{{$item->image_file_name}}">
+        <img class="card-img-top" src="{{ Storage::disk('s3')->url('item-images/' . $item->image_file_name) }}">
     </div>
     <div class="col-7">
         <table class="table table-bordered">

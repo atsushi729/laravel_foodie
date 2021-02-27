@@ -11,9 +11,9 @@
         <img class="img-fluid" src="{{ asset('images/farm.png')}}" alt="" style="height: 400px; width: 100%">
         <div class="position-absolute py-2 px-3 text-center rounded" style="left: 10%; bottom: 40%; color: white; background-color: rgba(0, 0, 0, 0.70); width: 80%;">
             <span class="ml-1 mx-auto d-block">
-            <img src="/images/logo-2.png" style="height: 110px; width: 200px;" class="rounded mt-3"/>
-            <div class="mt-3"><span class="font-weight-bold">foodie</span>はフードロスを解決するためのC to C プラットフォームです</div>
-            <div class="mt-3">美味しく食べて欲しい、生産者さんのために食べて応援しよう！</div>
+                <img src="/images/logo-2.png" style="height: 110px; width: 200px;" class="rounded mt-3" />
+                <div class="mt-3"><span class="font-weight-bold">foodie</span>はフードロスを解決するためのC to C プラットフォームです</div>
+                <div class="mt-3">美味しく食べて欲しい、生産者さんのために食べて応援しよう！</div>
             </span>
         </div>
     </div>
@@ -25,7 +25,7 @@
         @foreach ($items as $item)
         <div class="d-flex mt-5 border position-relative container-mk">
             <div class="position-relative overflow-hidden">
-                <img class="img-fluid" style="height: 140px; width: 140px;" src="/storage/item-images/{{$item->image_file_name}}">
+                <img class="img-fluid" style="height: 140px; width: 140px;" src="{{ Storage::disk('s3')->url('item-images/' . $item->image_file_name) }}">
                 <div class="position-absolute py-2 px-3" style="left: 0; bottom: 20px; color: white; background-color: rgba(0, 0, 0, 0.70)">
                     <i class="fas fa-yen-sign"></i>
                     <span class="ml-1">{{number_format($item->price)}}</span>
