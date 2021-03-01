@@ -11,7 +11,7 @@
                 <td>
                     <a href=" {{$item->seller->URL}} ">
                         @if (!empty($item->seller->avatar_file_name))
-                        <img src="/storage/avatars/{{$item->seller->avatar_file_name}}" class="rounded-circle" style="object-fit: cover; width: 35px; height: 35px;">
+                        <img src="{{ Storage::disk('s3')->url('avatars/' .$item->seller->avatar_file_name) }}" class="rounded-circle" style="object-fit: cover; width: 35px; height: 35px;">
                         @else
                         <img src="/images/avatar-default.svg" class="rounded-circle mr-1" style="object-fit: cover; width: 35px; height: 35px;">
                         @endif

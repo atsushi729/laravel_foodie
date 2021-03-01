@@ -15,7 +15,7 @@
                 @foreach ($items as $item)
                     <div class="d-flex mt-3 border position-relative">
                         <div>
-                            <img src="/storage/item-images/{{$item->image_file_name}}" class="img-fluid" style="height: 140px;">
+                        <img class="img-fluid" style="height: 140px; width: 140px;" src="{{ Storage::disk('s3')->url('item-images/' . $item->image_file_name) }}">
                         </div>
                         <div class="flex-fill p-3">
                             <div>
