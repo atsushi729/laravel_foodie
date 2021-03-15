@@ -20,7 +20,7 @@ class ItemsController extends Controller
  
          // カテゴリで絞り込み
          if ($request->filled('category')) {
-             list($categoryType, $categoryID) = explode(':', $request->input('category'));
+            [$categoryType, $categoryID] = explode(':', $request->input('category'));
  
              if ($categoryType === 'primary') {
                  $query->whereHas('secondaryCategory', function ($query) use ($categoryID) {
